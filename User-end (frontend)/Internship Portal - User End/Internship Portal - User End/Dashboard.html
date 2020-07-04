@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Dashboard</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style3.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body id="bo">
+    
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="sidebar-header">
+                <h3 style="color: white;">INCEPTION WAVE</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>  Welcome !!!</p>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                <li>
+                    <a href="#">Tasks</a>
+                </li>
+                <li>
+                    <a href="#">Need Help?</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div id="content">
+            <div class="container-fluid">
+                <div class="alert">
+                    <strong style="margin-left: 20px;"> Log In was successfull ...</strong>
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';" style="float: right;">&times;</span> 
+                </div>
+                <nav class="navbar navbar-light bg-light navv">
+                    <a class="navbar-brand" href="#">
+                      <img src="./img.jpg" width="40" height="40" class="d-inline-block align-top" style="margin-left: 10px;margin-top: -10px;">
+                      <p class="navit">INCEPTION WAVE</p>
+                    </a>
+                    <a class="navbar-brand" href="./profile.html">
+                        <img src="./img2.png" width="40" height="40" class="d-inline-block align-top" style="margin-left: 0px;margin-top: -10px;">
+                        <p class="navit">PROFILE</p>
+                      </a>
+                  </nav>
+                  <hr style="border: 1px black solid;margin-left: 35px;width: 1420px;">
+                <button type="button" id="sidebarCollapse" class="btn btn-info" style="margin-left: -10px;margin-top: 0px;">
+                	<i class="fas fa-align-left"></i>
+                </button>
+        </div>
+        <div class="card" style="width: 89rem; min-height: 42rem;margin-left: 50px;margin-top: -40px;">
+            <h1 style="text-align: center;margin-top: 20px;">INTERNSHIP TASKS</h1>
+            <div style="margin-top: 70px;">
+                <ul>
+                    <li class="card tname"><a class="atname" href="./tasks.html"><b>Task 1</b></a></li>
+                    <li class="card tname"><a class="atname" href="./tasks.html"><b>Task 2</b></a></li>
+                    <li class="card tname"><a class="atname" href="./tasks.html"><b>Task 3</b></a></li>
+                    <li class="card tname"><a class="atname" href="./tasks.html"><b>Task 4</b></a></li>
+                    <li class="card tname"><a class="atname" href="./tasks.html"><b>Task 5</b></a></li>
+                </ul> 
+            </div>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

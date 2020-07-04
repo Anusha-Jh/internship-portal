@@ -1,0 +1,15 @@
+body{
+  background: linear-gradient(90deg, rgba(2,160,252,1) 0%, rgba(2,160,252,1) 32%, rgba(255,255,255,1) 75%);
+}
+.content{
+  margin-left: 400px;
+  margin-top: 250px;
+}
+.imgBox{
+  margin-left: 1150px;
+  margin-top: -300px;
+ 
+}
+.iimg{
+  width: 300px;
+}
